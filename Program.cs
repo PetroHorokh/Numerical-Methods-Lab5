@@ -10,10 +10,10 @@ var f = new List<decimal>{ new decimal(.00000), new decimal(.09983), new decimal
 
 var p = new List<decimal>{ new decimal(.226), new decimal(.431), new decimal(.669) };
 
-var diff = Interpolation.SplitDifference(x, f);
+var diff = Interpolation.Difference(x, f);
 int n = diff.Count;
 
-Console.WriteLine("Table of split differences:");
+Console.WriteLine("Table of differences:");
 foreach (var col in diff)
 {
     foreach (var row in col)

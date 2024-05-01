@@ -2,7 +2,7 @@
 
 public static class Interpolation
 {
-    public static List<List<decimal>> SplitDifference(List<decimal> x, List<decimal> f)
+    public static List<List<decimal>> Difference(List<decimal> x, List<decimal> f)
     {
         var diff = new List<List<decimal>> { x, f };
 
